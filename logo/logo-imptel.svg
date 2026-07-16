@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="40" fill="#003399"/>
+  <rect x="20" y="20" width="160" height="160" rx="24" fill="none" stroke="#2255cc" stroke-width="3"/>
+  <text x="100" y="125" text-anchor="middle" fill="white" font-size="90" font-weight="bold" font-family="Arial, sans-serif">I</text>
+  <text x="100" y="165" text-anchor="middle" fill="#f5c842" font-size="16" font-weight="bold" font-family="Arial, sans-serif" letter-spacing="2">IMPTEL</text>
+</svg>
