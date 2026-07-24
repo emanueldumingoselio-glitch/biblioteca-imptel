@@ -9,6 +9,7 @@
 @font-face { font-family:'Poppins'; src:url('../fonts/poppins-latin-800-normal.woff2') format('woff2'); font-weight:800; font-style:normal; font-display:swap; }
 
 :root {
+  color-scheme:dark;
   --green:        #1DB954;
   --green-hover:  #1ed760;
   --green-dim:    rgba(29,185,84,0.15);
@@ -236,6 +237,15 @@ button { font-family: 'Poppins', sans-serif; }
 .header-search input {
   flex:1; padding:10px 16px; border:none; background:transparent;
   font-family:'Poppins',sans-serif; font-size:0.875rem; color:#fff; outline:none;
+  -webkit-appearance:none; -moz-appearance:none; appearance:none;
+  box-shadow:none;
+}
+.header-search input:-webkit-autofill,
+.header-search input:-webkit-autofill:hover,
+.header-search input:-webkit-autofill:focus {
+  -webkit-text-fill-color:#fff;
+  -webkit-box-shadow:0 0 0 1000px transparent inset;
+  transition:background-color 5000s ease-in-out 0s;
 }
 .header-search input::placeholder { color:var(--text-muted); }
 .header-search button {
